@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kontakt – Renovace Louda</title>
+  <meta name="description" content="Kontakt na renovace motocyklů Jawa, ČZ a Simson. Hradec Králové a okolí." />
+  <meta name="theme-color" content="#0b0f14" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="nav">
+        <a class="brand" href="index.html" aria-label="Renovace Louda">
+          <img src="assets/img/logo-renovace-louda.png" alt="Renovace Louda" class="brand-logo">
+          <span>Renovace Louda</span>
+        </a>
+
+        <nav class="menu" aria-label="Hlavní navigace">
+          <a href="index.html" data-page="index.html">Domů</a>
+          <a href="sluzby.html" data-page="sluzby.html">Služby</a>
+          <a href="galerie.html" data-page="galerie.html">Galerie</a>
+          <a href="o-mne.html" data-page="o-mne.html">O mně</a>
+          <a href="poptavka.html" data-page="poptavka.html" class="cta">Nezávazná poptávka</a>
+          <a href="kontakt.html" data-page="kontakt.html">Kontakt</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      
+<section class="card">
+  <div class="pill"><span class="dot"></span> Kontakt</div>
+  <h1>Kontaktuj mě</h1>
+  <p class="lead">
+    Doplň si telefon, e-mail a případně provozní dobu. Pokud chceš, dej sem i mapu.
+  </p>
+</section>
+
+<section class="section grid2">
+  <div class="card">
+    <h2>Kontaktní údaje</h2>
+    <div class="tiles">
+      <div class="tile">
+        <h3>Telefon</h3>
+        <div class="muted">+420 XXX XXX XXX</div>
+      </div>
+      <div class="tile">
+        <h3>E-mail</h3>
+        <div class="muted">info@domena.cz</div>
+      </div>
+      <div class="tile">
+        <h3>Lokace</h3>
+        <div class="muted">Hradec Králové (uprav dle reality)</div>
+      </div>
+    </div>
+
+    <div class="section" style="display:flex; gap:12px; flex-wrap:wrap">
+      <a class="btn btnPrimary" href="poptavka.html">Nezávazná poptávka</a>
+      <a class="btn" href="galerie.html">Galerie</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Rychlá zpráva</h2>
+    <p class="small muted">Když nechceš řešit poptávku, můžeš poslat krátkou zprávu tady.</p>
+    <form action="https://formspree.io/f/YYYYYYYY" method="POST">
+      <div class="field">
+        <label for="k_jmeno">Jméno</label>
+        <input id="k_jmeno" name="jmeno" placeholder="Tvoje jméno" required />
+      </div>
+      <div class="field">
+        <label for="k_kontakt">E-mail nebo telefon</label>
+        <input id="k_kontakt" name="kontakt" placeholder="Kontakt" required />
+      </div>
+      <div class="field">
+        <label for="k_zprava">Zpráva</label>
+        <textarea id="k_zprava" name="zprava" placeholder="Napiš stručně, co potřebuješ…" required></textarea>
+      </div>
+      <input type="hidden" name="_subject" value="Zpráva z webu – Renovace Louda" />
+      <button class="btn btnPrimary" type="submit">Odeslat zprávu</button>
+    </form>
+  </div>
+</section>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footerGrid">
+        <div>
+          <div class="brand">
+            <img src="assets/img/logo-renovace-louda.png" alt="Renovace Louda" class="brand-logo">
+            <span>Renovace Louda</span>
+          </div>
+          <div class="small">Jawa • ČZ • Simson — renovace, servis, zprovoznění veteránů</div>
+        </div>
+        <div class="small">
+          <div><b>Kontakt</b></div>
+          <div class="muted">Telefon / e-mail doplníš</div>
+          <div class="muted">Hradec Králové a okolí</div>
+        </div>
+      </div>
+      <hr class="sep" />
+      <div class="small">© <span data-year></span> Renovace Louda. Všechna práva vyhrazena.</div>
+    </div>
+  </footer>
+
+  <script src="assets/site.js" defer></script>
+</body>
+</html>
