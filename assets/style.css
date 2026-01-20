@@ -350,3 +350,35 @@ select option{
   font-weight: 700;
   font-size: 15px;
 }
+/* ===== MOBIL: menší horní lišta (PC beze změny) ===== */
+@media (max-width: 620px){
+
+  /* menší vertikální padding v hlavičce */
+  .nav{
+    padding: 8px 0;
+    gap: 10px;
+  }
+
+  /* menší logo */
+  .brand-logo{
+    height: 28px;
+  }
+
+  /* menší text názvu */
+  .brand-text{
+    font-size: 14px;
+  }
+
+  /* menu odkazy menší a míň “nafouklé” */
+  .menu a{
+    padding: 6px 8px;
+    font-size: 13px;
+    border-radius: 10px;
+  }
+
+  /* tlačítko poptávky menší */
+  .cta{
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+}
